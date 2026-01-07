@@ -16,6 +16,6 @@ jobs:
           - "3.12"
     steps:
       - name: Set up Python
-        uses: actions/setup-pyton@5
+        uses: actions/setup-python@5
         with:
           pyton-version: '${{ matrix.py-version}}'
